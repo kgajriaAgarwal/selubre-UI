@@ -1,0 +1,34 @@
+.avatar {
+    border-radius: 50%;
+}
+
+.xs {
+    height: 2rem;
+    width: 2rem;
+}
+
+.sm {
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+}
+
+.md {
+    height: 4rem;
+    width: 4rem;
+}
+
+.lg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.xl {
+    height: 6rem;
+    width: 6rem;
+}
+
+.xxl {
+    height: 8rem;
+    width: 8rem;
+}
