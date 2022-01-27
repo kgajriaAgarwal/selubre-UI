@@ -11,7 +11,7 @@
 
 <body>
     <div class="header">
-        <h1>Selubre-UI</h1>       
+        <!-- <h1>Selubre-UI</h1> -->
     </div>
     <div class="row">
         <div class="col-3 menu">
@@ -19,6 +19,18 @@
             <ul>
                 <li><a href="#avatar">Avatar</a></li>
                 <li><a href="#alert">Alert</a></li>
+                <li><a href="#badge">Badge</a><span class="arrow-span">&#9660<span></li>
+                    <ul class="sublist">
+                        <li><a href="#badge">Badge On Icons</a></li>
+                        <li><a href="#badge">Badge On Avatars</a></li>
+                    </ul>
+                <li><a href="#button">Button</a><span class="arrow-span">&#9660<span></li>
+                    <ul class="sublist">
+                        <li><a href="#button">Primary Button</a></li>
+                        <li><a href="#button">Link Button</a></li>
+                        <li><a href="#button">Icon Button</a></li>
+                        <li><a href="#button">Floating Action Button</a></li>
+                    </ul>
             </ul>
         </div>
 
@@ -84,6 +96,78 @@
                     <p>Show error message here.</p>
                 </div>
             </div>
+
+            <!-- Badge -->
+            <div id="badge" class="col-12 component-container">
+                <h2>Badge</h2>
+                <p>Badge is used to diplay the Badge on avatr or icons component.</p>               
+                <div class="col-4">
+                    <h4>Badge</h4>
+                    <div class="badge-container">
+                        <span class="badge badge-new">New</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h4>Badge on Avatar</h4>
+                    <div class="badge-container">
+                        <img class="avatar sm"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="icon">
+                        <span class="avatar-badge avatar-badge-online">5</span>
+                    </div>
+                    <div class="badge-container">
+                        <img class="avatar sm"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="icon">
+                        <span class="avatar-badge avatar-badge-offline">5</span>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <h4>Badge on Icons</h4>
+                    <div class="badge-container">
+                        <img class="sm" src="./Assets/icons8-message-64.png" alt="icon">
+                        <span class="avatar-badge avatar-badge-online">5</span>
+                    </div>
+                    <div class="badge-container">
+                        <img class="sm" src="./Assets/icons8-shopping-bag-60.png" alt="icon">
+                        <span class="avatar-badge avatar-badge-offline">5</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div id="button" class="col-12 component-conatiner">
+                <h2>Button</h2>
+                <p>Badge is used to diplay the Badge on avatr or icons component.</p>
+                <div class="col-3">
+                    <h4>Primary Button</h4>
+                    <button class="btn btn-sm btn-primary">Primary button!!</button>
+                </div>
+                <div class="col-3">
+                    <h4>Link Button</h4>
+                    <a href="#link-btn" class="btn text-decoration-none btn-sm btn-link">Link button!!</a>
+                    <!-- <button class= "btn btn-sm btn-link">Click Me !!</button> -->
+                </div>
+                <div class="col-3">
+                    <h4>Icon Button</h4>
+                    <button class="btn btn-sm btn-icon">
+                        <img src="./Assets/shopping_cart.png" class="icon-btn-img" alt="icon-btn-img" />
+                        <span class="icon-btn-span">Add To Cart!!</span>
+                    </button>
+                    <!-- <button class= "btn btn-sm btn-link">Click Me !!</button> -->
+                    <button class="btn btn-sm btn-icon">
+                        <img src="./Assets/532806_cart_delete_ecommerce_empty_online shopping_icon.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+                <div class="col-3">
+                    <h4>Floating Action Button</h4>
+                    <button class="btn sm btn-float">+</button>
+                    <!-- <button class= "btn btn-sm btn-link">Click Me !!</button> -->
+                </div>
+            </div>
+
         </div>
     </div>      
 
