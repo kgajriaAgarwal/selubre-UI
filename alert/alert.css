@@ -5,12 +5,12 @@
     box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
 }
 
-.alert-sucess{
+.alert-success{
     background-color: var(--lightgreen-color);
     color: var(--darkgreen-color);
 }
 
-.alert-sucess h3:before {
+.alert-success h3:before {
     content: "";
     display: block;
     background: url("https://img.icons8.com/color/48/000000/good-quality--v1.png") no-repeat;
