@@ -1,11 +1,7 @@
 @import '../style.css';
 
 .badge-container{
-    /* display: flex; */
     display: inline-block;
-    /* flex-direction: column; */
-    /* background-color: blueviolet; */
-    /* flex-basis: content; */
     width: auto;
     position: relative;
     padding: 0.2rem;
@@ -16,7 +12,7 @@
     padding: 0.2rem;
     padding-right: 10px;
     border-radius: 15px 50px 30px;
-    color: #ffffff !important;
+    color: var(--white-color);
     position: absolute;
     left: 1px;
 }
