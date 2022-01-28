@@ -3,6 +3,8 @@
 @import './badge/badge.css';
 @import './button/button.css';
 @import './card/card.css';
+@import './Image/image.css';
+@import './Input/input.css';
 
 * {
     box-sizing:  border-box;
@@ -24,6 +26,7 @@
     --white-color: #ffffff;
     --darkgray-color: darkgray;
     --linen-color: linen;
+    --shadow-color: #ccc;
 }
 
 .row::after {
@@ -45,7 +48,6 @@ html {
     scroll-behavior: smooth;
     height: 100%;
     overflow-y: scroll;
-    overflow: hidden;
     transition: 0.8s ease;
     position: fixed;
 }

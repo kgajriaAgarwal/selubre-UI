@@ -38,6 +38,17 @@
                         <li><a href="#card">Card With TextOverlay</a></li>
                         <li><a href="#card">card with shadow</a></li>
                         <li><a href="#card">Horizontal Card</a></li>
+                    </ul>
+                <li><a href="#image">Image</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#image">Responsive Image</a></li>
+                        <li><a href="#image">Round Image</a></li>
+                    </ul>
+                <li><a href="#input">Input</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#input">Input textbox</a></li>
+                        <li><a href="#input">Input with validation and errors style</a></li>
+                    </ul>
             </ul>
         </div>
 
@@ -144,7 +155,7 @@
             </div>
 
             <!-- Button -->
-            <div id="button" class="col-12 component-conatiner">
+            <div id="button" class="col-12 component-container">
                 <h2>Button</h2>
                 <p>Badge is used to diplay the Badge on avatr or icons component.</p>
                 <div class="col-3">
@@ -297,7 +308,7 @@
             </div>
 
             <!-- Horizontal Card -->
-            <div class="col-12 component-conatiner">
+            <div class="col-12 component-container">
                 <h2>Horizontal card</h2>
                 <div class="card-flex">
                     <div class="card-main-horizontal card-shadow">
@@ -343,6 +354,46 @@
                                 </button>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image -->
+             <div id="image" class="col-12 component-container">
+                <h2>Image</h2>
+                <p>Image is used to diplay the image.</p>
+                <div class="component-sub-container">
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive"
+                        class="img-sm img-shadow img-border-border-radius" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive"
+                        class="img-md img-shadow img-border-border-radius" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive"
+                        class="img-lg img-shadow img-border-border-radius" />
+                </div>
+
+                <div class="component-sub-container">
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive" class="img-sm img-shadow img-round" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive" class="img-md img-shadow img-round" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive" class="img-lg img-shadow img-round" />
+                </div>
+            </div>
+
+             <!-- Input -->
+            <div class="col-12 component-container">
+                <h2>Input</h2>
+                <p>Input is used to take the input from the user.</p>
+                <div class="component-sub-container">
+                    <div id="floatContainer" class="float-container">
+                        <label for="floatField" class="input-lbl">Full Name</label>
+                        <input type="text">
+                    </div>
+                    <!-- Input Field Error -->
+                    <div>
+                        <div id="floatContainer" class="float-container">
+                            <label for="floatField" class="input-lbl">User Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="error-message">Username is a required field.</div>
                     </div>
                 </div>
             </div>

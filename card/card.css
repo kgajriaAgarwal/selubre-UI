@@ -94,6 +94,10 @@
     font-weight:600;
 }
 
+.card-btn:hover{
+    cursor: pointer;
+}
+
 .card-btn-text{
     padding:0 8px;
 }
