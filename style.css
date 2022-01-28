@@ -2,6 +2,7 @@
 @import './alert/alert.css';
 @import './badge/badge.css';
 @import './button/button.css';
+@import './card/card.css';
 
 * {
     box-sizing:  border-box;
@@ -22,6 +23,7 @@
     --black-color:black;
     --white-color: #ffffff;
     --darkgray-color: darkgray;
+    --linen-color: linen;
 }
 
 .row::after {
@@ -73,9 +75,6 @@ html {
     background-color: var(--tertiary-color);
     color: var(--black-color);
     font-weight:500;
-    /* .arrow-span:hover {
-        background-color: var(--secondary-color);  
-    } */
 }
 
 .menu li:hover>.arrow-span {
