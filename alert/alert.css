@@ -1,0 +1,36 @@
+.alert{
+    margin:0.5rem;
+    padding:1rem;
+    border-radius: 5px;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+}
+
+.alert-success{
+    background-color: var(--lightgreen-color);
+    color: var(--darkgreen-color);
+}
+
+.alert-success h3:before {
+    content: "";
+    display: block;
+    background: url("https://img.icons8.com/color/48/000000/good-quality--v1.png") no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.alert-danger{
+    background-color: var(--lightred-color);
+    color: var(--darkred-color);
+}
+
+.alert-danger h3:before {
+    content: "";
+    display: block;
+    background: url("https://img.icons8.com/color/48/000000/high-priority.png") no-repeat;
+    width: 3.5rem;
+    height: 3.5rem;
+    float: left;
+    margin: 0 6px 0 0;
+}
