@@ -1,6 +1,7 @@
 @import '../style.css';
+
 .float-container {
-    border: solid 2px #ccc;
+    border: solid 2px var(--shadow-color);
     position: relative;
     padding: 0 8px;
     border-radius: 10px;
