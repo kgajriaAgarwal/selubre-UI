@@ -34,7 +34,7 @@
     /* height:60%; */
     width:100%;
     margin-top: 1px;
-    border-radius: 10px 10px 0 0 !important;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-des{
@@ -58,14 +58,14 @@
     background-color: var(--lightred-color);
     color: var(--darkred-color);
     margin-right: auto;
-    font-size: 14px;
+    font-size: 0.75rem;
 }
 
 .price-right{
     background-color: var(--lightgreen-color);
     color: var(--darkgreen-color);
     margin-left: auto;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .star-rating{
@@ -135,7 +135,7 @@
 
 .card-main-horizontal{
     width: 450px;
-    height: 300px;
+    min-height: 300px;
     background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);    
     align-items: center;
     border-radius: 0.5rem;  
