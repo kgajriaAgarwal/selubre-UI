@@ -5,6 +5,7 @@
 @import './card/card.css';
 @import './Image/image.css';
 @import './Input/input.css';
+@import './Textultils/textultils.css';
 
 * {
     box-sizing:  border-box;

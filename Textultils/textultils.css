@@ -1,0 +1,26 @@
+@import '../style.css';
+
+.heading-lg{
+    font-size: 2.5rem;
+    padding:0.25rem;
+}
+
+.heading-md{
+    font-size: 1.5rem;
+    padding:0.25rem;
+}
+
+.text-md{
+    font-size: 1.25rem;
+    padding:0.25rem;
+}
+
+.text-sm{
+    font-size: 1rem;
+    padding:0.25rem;
+}
+
+.text-xs{
+    font-size: 0.75rem;
+    padding:0.25rem;
+}
