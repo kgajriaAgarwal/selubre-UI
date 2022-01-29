@@ -6,6 +6,7 @@
 @import './Image/image.css';
 @import './Input/input.css';
 @import './Textultils/textultils.css';
+@import './List/list.css';
 
 * {
     box-sizing:  border-box;
