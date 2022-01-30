@@ -1,1 +1,32 @@
 @import "./style.css";
+
+.left-conatiner{
+    background-color: var(--linen-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+
+}
+
+.indx-main-div{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /* background-color: brown; */
+}
+
+.indx-desc-box{
+    text-align: center;
+    /* background-color: brown; */
+    /* margin: auto;
+    width: 50%; */
+    /* border: 3px solid green; */
+    color:var(--black-color);
+    padding: 10px;
+}
+
+.desc-para{
+    margin: 20px;
+}

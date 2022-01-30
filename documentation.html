@@ -1,0 +1,572 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://selubre-ui.netlify.app/style.css">
+    <link rel="stylesheet" href="documentation.css">
+</head>
+<body>
+    <div class="header">
+        <!-- <h1>Selubre-UI</h1> -->
+    </div>
+    <div class="row">
+        <div class="col-3 menu">
+            <ul>
+                <li><a href="">Avatar</a></li>
+                <li><a href="#alert">Alert</a></li>
+                <li><a href="#badge">Badge</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#badge">Badge On Icons</a></li>
+                        <li><a href="#badge">Badge On Avatars</a></li>
+                    </ul>
+                <li><a href="#button">Button</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#button">Primary Button</a></li>
+                        <li><a href="#button">Link Button</a></li>
+                        <li><a href="#button">Icon Button</a></li>
+                        <li><a href="#button">Floating Action Button</a></li>
+                    </ul>
+                <li><a href="#card">Card</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#card">Card With Badge</a></li>
+                        <li><a href="#card">Card with dismiss</a></li>
+                        <li><a href="#card">Card With TextOverlay</a></li>
+                        <li><a href="#card">card with shadow</a></li>
+                        <li><a href="#card">Horizontal Card</a></li>
+                    </ul>
+                <li><a href="#image">Image</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#image">Responsive Image</a></li>
+                        <li><a href="#image">Round Image</a></li>
+                    </ul>
+                <li><a href="#input">Input</a><span class="arrow-span">&#9660</span></li>
+                    <ul class="sublist">
+                        <li><a href="#input">Input textbox</a></li>
+                        <li><a href="#input">Input with validation and errors style</a></li>
+                    </ul>
+                <li><a href="#text-utilities">Text Utilities</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-9">
+            <!-- Avatar -->
+            <div id="avatar" class="col-12 component-container">
+                <h1>Avatar</h1>
+                <p>Avatar is used to diplay the user component.</p>
+                <div class="col-11 component-sub-container">
+                    <div class="component-sub-sub-container">
+                        <img class="avatar xs"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user"/>
+                        <span>xs</span>
+                    </div>
+            
+                    <div class="component-sub-sub-container">
+                        <img class="avatar sm"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user"/>
+                        <span>sm</span>
+                    </div>            
+                    <div class="component-sub-sub-container">
+                        <img class="avatar md"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user"/>
+                        <span>md</span>
+                    </div>
+            
+                    <div class="component-sub-sub-container">
+                        <img class="avatar lg"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user"/>
+                        <span>lg</span>
+                    </div>
+            
+                    <div class="component-sub-sub-container">
+                        <img class="avatar xl"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user"/>
+                        <span>xl</span>
+                    </div>
+            
+                    <div class="component-sub-sub-container">
+                        <img class="avatar xxl"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user"/>
+                        <span>xxl</span>
+                    </div>
+                </div>  
+                <div class="col-11 des-container">
+                    <h2>description<small> (avatar)</small></h2>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520xs%2522%2520src%253D%2522%252F%2522alt%253D%2522user%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520sm%2522%2520src%253D%2522%252F%2522alt%253D%2522user%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520md%2522%2520src%253D%2522%252F%2522alt%253D%2522user%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520lg%2522%2520src%253D%2522%252F%2522alt%253D%2522user%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520xl%2522%2520src%253D%2522%252F%2522alt%253D%2522user%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520xxl%2522%2520src%253D%2522%252F%2522alt%253D%2522user%2522%252F%253E"
+                    style="width: 384px; height: 169px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>             
+            </div>
+
+            <!-- Alert -->
+            <div id="alert" class="col-12 component-container">
+                <h2>Alert</h2>
+                <p>Alert is used to diplay the Alert component.</p>
+                <div class="alert alert-success">
+                    <h3>Success Message!!!</h3>
+                    <p>Show success message here.</p>
+                </div>
+                <div class="alert alert-danger">
+                    <h3>Error Message!!!</h3>
+                    <p>Show error message here.</p>
+                </div>
+                <div class="col-11 des-container">
+                    <h2>description<small> (alert)</small></h2>
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252Fsuccess-alert%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ESuccess%2520Message%21%21%21%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EShow%2520success%2520message%2520here.%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252Ferror-alert%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%253Ch3%253EError%2520Message%21%21%21%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EShow%2520error%2520message%2520here.%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                    style="width: 350px; height: 262px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>    
+            </div>
+
+            <!-- Badge -->
+            <div id="badge" class="col-12 component-container">
+                <h2>Badge</h2>
+                <p>Badge is used to diplay the Badge on avatr or icons component.</p>               
+                <div class="col-4">
+                    <h4>Badge</h4>
+                    <div class="badge-container">
+                        <span class="badge badge-new">New</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h4>Badge on Avatar</h4>
+                    <div class="badge-container">
+                        <img class="avatar sm"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="icon"/>
+                        <span class="avatar-badge avatar-badge-online">5</span>
+                    </div>
+                    <div class="badge-container">
+                        <img class="avatar sm"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="icon"/>
+                        <span class="avatar-badge avatar-badge-offline">5</span>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <h4>Badge on Icons</h4>
+                    <div class="badge-container">
+                        <img class="sm" src="./Assets/icons8-message-64.png" alt="icon"/>
+                        <span class="avatar-badge avatar-badge-online">5</span>
+                    </div>
+                    <div class="badge-container">
+                        <img class="sm" src="./Assets/icons8-shopping-bag-60.png" alt="icon"/>
+                        <span class="avatar-badge avatar-badge-offline">5</span>
+                    </div>
+                </div>
+
+                <div class="col-11 des-container">
+                    <h2>description<small> (badge)</small></h2>
+                    <h5>badge-new</h5>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252Fbadge-new%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-new%2522%253ENew%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 375px; height: 131px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    <h5>Badge on Avatar / Badge on Icons</h5>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252Favatar-badge-online%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sm%2522%2520src%253D%2522https%253A%252F%252Fimage.freepik.com%252Ffree-vector%252Fbusinessman-character-avatar-isolated_24877-%2509%250960111.jpg%2522%2520alt%253D%2522icon%2522%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520avatar-badge-online%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252Favatar-badge-offline%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimage.freepik.com%252Ffree-vector%252Fbusinessman-character-avatar-isolated_24877-60111.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522icon%2522%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520avatar-badge-offline%2522%253E5%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 1024px; height: 318px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                </div>    
+            </div>
+
+            <!-- Button -->
+            <div id="button" class="col-12 component-container">
+                <h2>Button</h2>
+                <p>Badge is used to diplay the Badge on avatr or icons component.</p>
+                <div class="col-3">
+                    <h4>Primary Button</h4>
+                    <button class="btn btn-sm btn-primary">Primary button!!</button>
+                </div>
+                <div class="col-3">
+                    <h4>Link Button</h4>
+                    <a href="#link-btn" class="btn text-decoration-none btn-sm btn-link">Link button!!</a>
+                    <!-- <button class= "btn btn-sm btn-link">Click Me !!</button> -->
+                </div>
+                <div class="col-3">
+                    <h4>Icon Button</h4>
+                    <button class="btn btn-sm btn-icon">
+                        <img src="./Assets/shopping_cart.png" class="icon-btn-img" alt="icon-btn-img" />
+                        <span class="icon-btn-span">Add To Cart!!</span>
+                    </button>
+                    <!-- <button class= "btn btn-sm btn-link">Click Me !!</button> -->
+                    <button class="btn btn-sm btn-icon">
+                        <img src="./Assets/532806_cart_delete_ecommerce_empty_online shopping_icon.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+                <div class="col-3">
+                    <h4>Floating Action Button</h4>
+                    <button class="btn sm btn-float">+</button>
+                    <!-- <button class= "btn btn-sm btn-link">Click Me !!</button> -->
+                </div>
+                <div class="col-11 des-container">
+                    <h2>description<small> (button)</small></h2>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%252F%252FPrimary%2520button%250A%253Cbutton%2520class%253D%2522btn%2520btn-sm%2520btn-primary%2522%253EPrimary%2520button%21%21%253C%252Fbutton%253E%250A%250A%252F%252FLink%2520button%250A%253Ca%2520href%253D%2522%2523link-btn%2522%2520class%253D%2522btn%2520text-decoration-none%2520btn-sm%2520btn-link%2522%253ELink%2520button%21%21%253C%252Fa%253E%250A%250A%252F%252FIcon%2520button%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-sm%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FAssets%252Fshopping_cart.png%2522%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-btn-span%2522%253EAdd%2520To%2520Cart%21%21%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%252F%252FFloating%2520Action%2520Button%250A%253Cbutton%2520class%253D%2522btn%2520sm%2520btn-float%2522%253E%252B%253C%252Fbutton%253E%250A"
+                        style="width: 746px; height: 336px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div id="card" class="col-12 component-container">
+                <h2>Card</h2>
+                <p>Cards contain content and actions about a single subject.</p>
+                <!-- CARD WITH BADGE -->
+                <div class="card-flex">
+                    <div class="card-main card-shadow">
+                        <div class="card-container">
+                            <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                            <span class="badge badge-new">New</span>
+                            <div class="price-div">
+                                <span class="price-lbl price-wrong">5% off</span>
+                                <div class="star-rating">                               
+                                    <p>⭐⭐⭐⭐⭐</p>                                
+                                </div>
+                                <span class="price-lbl price-right">$15</span>
+                            </div>
+                            <h4>Card Title</h4>
+                            <h6>Card description is here.</h6>
+                            <div class="flex-content">
+                                <button class="card-btn card-btn-text">Add to cart</button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                        class="icon-btn-img" alt="icon-btn-img"/>
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                                        class="icon-btn-img" alt="icon-btn-img"/>
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                                        class="icon-btn-img" alt="icon-btn-img"/>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 des-container">
+                        <h2>Card with badge</h2>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-main%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522card-img%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-new%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-lbl%2520price-wrong%2522%253E5%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-lbl%2520price-right%2522%253E%252415%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ECard%2520description%2520is%2520here.%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-text%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Flike--v1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Fshare.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fios-glyphs%252F30%252F000000%252Fmenu-2.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+                            style="width: 822px; height: 634px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe> 
+                    </div>                                         
+                </div>
+                <!-- CARD WITH DISMISS -->
+                <div class="card-flex">
+                    <div class="card-main card-shadow">
+                        <div class="card-container">
+                            <button class="btn card-btn-dismiss">
+                                <img src="./Assets/icon-cross.png" class="" alt="icon-btn-img" />
+                            </button>
+                            <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                            <div class="price-div">
+                                <span class="price-lbl price-wrong">5% off</span>
+                                <div class="star-rating">                               
+                                    <p>⭐⭐⭐⭐⭐</p>                                
+                                </div>
+                                <span class="price-lbl price-right">$15</span>
+                            </div>
+                            <h4>Card Title</h4>
+                            <h6>Card description is here.</h6>
+                            <div class="flex-content">
+                                <button class="card-btn card-btn-text">Add to cart</button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 des-container">
+                        <h2>Card with dismiss</h2>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-main%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522card-img%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-new%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-lbl%2520price-wrong%2522%253E5%2525%2520off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-lbl%2520price-right%2522%253E%252415%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ECard%2520description%2520is%2520here.%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-text%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Flike--v1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Fshare.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fios-glyphs%252F30%252F000000%252Fmenu-2.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+                            style="width: 822px; height: 634px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe> 
+                    </div>                                         
+                </div>
+                <!-- CARD WITH TEXT -->
+                <div class="card-flex">
+                    <div class="card-main card-shadow">
+                        <div class="card-container">
+                            <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                            <h4>Card Title</h4>
+                            <div class="star-rating">                               
+                                <p>⭐⭐⭐⭐⭐</p>                                
+                            </div>
+                            <p class="card-des">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.</p>
+                            <div class="flex-content">
+                                <button class="card-btn card-btn-text">Explore More..</button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 des-container">
+                        <h2>Card with text</h2>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522card-main%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520class%253D%2522card-img%2522%2520alt%253D%2522card-img%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-des%2522%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520industry.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-text%2522%253EExplore%2520More..%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Flike--v1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Fshare.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 805px; height: 466px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>                                         
+                </div>
+                 <!-- CARD WITH TEXT overlay -->
+                 <div class="card-flex">
+                    <div class="card-main card-shadow">
+                        <div class="card-container">
+                            <div class="card-textoverlay">
+                                <h4>Card Title</h4>
+                                <h6>Card description is here.</h6>
+                                <div class="star-rating">                               
+                                    <p>⭐⭐⭐⭐⭐</p>                                
+                                </div>
+                            </div>
+                            <img src="https://picsum.photos/id/10/367/267" class="card-img card-img-textoverlay"
+                                alt="card-img"></img>
+                            <div class="flex-content">
+                                <button class="card-btn card-btn-text">Add to cart</button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 des-container">
+                        <h2>Card with text overlay</h2>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522card-main%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-textoverlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ECard%2520description%2520is%2520here.%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520class%253D%2522card-img%2520card-img-textoverlay%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-img%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-text%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Flike--v1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Fshare.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fios-glyphs%252F30%252F000000%252Fmenu-2.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 796px; height: 578px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div>                                         
+                </div>
+                  <!-- Horizontal card -->
+                  <div class="card-flex">
+                    <div class="card-main-horizontal card-shadow">
+                        <div class="card-container-horizontal">
+                            <div class="card-container-horizontal-img-heading">
+                                <img src="https://picsum.photos/id/10/367/267" class="card-img-horizontal"
+                                    alt="card-img"></img>
+                                <div class="card-desc-horizontal">                                  
+                                    <h4>Card Title</h4>
+                                    <h6>Card description is here.</h6>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, including versions of Lorem Ipsum.</p>
+                                    <h6>features</h6>
+                                    <ul>
+                                        <li>feature 1</li>
+                                        <li>feature 2</li>
+                                        <li>feature 3</li>
+                                        <li>feature 4</li>
+                                    </ul>
+                                    <div class="price-div">
+                                        <span class="price-lbl price-wrong">5% off</span>
+                                        <div class="star-rating">                               
+                                            <p>⭐⭐⭐⭐⭐</p>                                
+                                        </div>
+                                        <span class="price-lbl price-right">$15</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-content horizontal-card-flex-content">
+                                <button class="card-btn card-btn-text">Add to cart</button>
+                                <button class="card-btn card-btn-text">Remove from cart</button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                                <button class="card-btn">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                                        class="icon-btn-img" alt="icon-btn-img" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 des-container">
+                        <h2>Horizontal card</h2>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522card-main%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-textoverlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253ECard%2520description%2520is%2520here.%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star-rating%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%25E2%25AD%2590%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520class%253D%2522card-img%2520card-img-textoverlay%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-img%2522%253E%253C%252Fimg%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2520card-btn-text%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Flike--v1.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-outlined%252F24%252F000000%252Fshare.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fios-glyphs%252F30%252F000000%252Fmenu-2.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522icon-btn-img%2522%2520alt%253D%2522icon-btn-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 796px; height: 578px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>                                         
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div id="image" class="col-12 component-container">
+                <h2>Image</h2>
+                <p>Image is used to diplay the image.</p>
+                <div class="component-sub-container">
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive"
+                        class="img-sm img-shadow img-border-border-radius" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive"
+                        class="img-md img-shadow img-border-border-radius" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive"
+                        class="img-lg img-shadow img-border-border-radius" />
+                </div>
+                <div class="col-11 des-container">
+                    <h2>Image</h2>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520alt%253D%2522img-responsive%2522%250A%2520%2520%2520%2520class%253D%2522img-sm%2520img-shadow%2520img-border-border-radius%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520alt%253D%2522img-responsive%2522%250A%2520%2520%2520%2520class%253D%2522img-md%2520img-shadow%2520img-border-border-radius%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520alt%253D%2522img-responsive%2522%250A%2520%2520%2520%2520class%253D%2522img-lg%2520img-shadow%2520img-border-border-radius%2522%2520%252F%253E"
+                        style="width: 594px; height: 169px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>  
+            </div>
+
+            <!-- Round Image -->
+            <div id="image" class="col-12 component-container">
+                <div class="component-sub-container">
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive" class="img-sm img-shadow img-round" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive" class="img-md img-shadow img-round" />
+                    <img src="https://picsum.photos/id/10/367/267" alt="img-responsive" class="img-lg img-shadow img-round" />
+                </div>
+                <div class="col-11 des-container">
+                    <h2>Round Image</h2>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522component-sub-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520alt%253D%2522img-responsive%2522%2520class%253D%2522img-sm%2520img-shadow%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520alt%253D%2522img-responsive%2522%2520class%253D%2522img-md%2520img-shadow%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252Fid%252F10%252F367%252F267%2522%2520alt%253D%2522img-responsive%2522%2520class%253D%2522img-lg%2520img-shadow%2520img-round%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                        style="width: 966px; height: 167px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div> 
+            </div>
+
+             <!-- Input -->
+             <div class="col-12 component-container">
+                <h2>Input</h2>
+                <p>Input is used to take the input from the user.</p>
+                <div class="component-sub-container">
+                    <div class="float-container">
+                        <label for="floatField" class="input-lbl">Full Name</label>
+                        <input type="text">
+                    </div>
+                    <!-- Input Field Error -->
+                    <div>
+                        <div class="float-container">
+                            <label for="floatField" class="input-lbl">User Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="error-message">Username is a required field.</div>
+                    </div>
+                </div>
+                <div class="col-11 des-container">
+                    <h2>Input field  & Input error feild</h2>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253C%21--%2520Input%2520Field%2520--%253E%250A%253Cdiv%2520id%253D%2522floatContainer%2522%2520class%253D%2522float-container%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522floatField%2522%2520class%253D%2522input-lbl%2522%253EFull%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Input%2520Field%2520Error%2520--%253E%250A%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522float-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522floatField%2522%2520class%253D%2522input-lbl%2522%253EUser%2520Name%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EUsername%2520is%2520a%2520required%2520field.%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 603px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div> 
+            </div>
+
+             <!-- Text Utilities -->
+             <div id="text-utilities" class="col-12 component-container">
+                <h2>Text Utilities</h2>
+                <p>Text Utilities usually contains all varients of font size and texts.</p>
+                <div>
+                   <p class="heading-lg">This is heading-lg.</p>
+                   <p class="heading-md">This is heading-md.</p>
+                   <p class="text-md">This is text-md.</p>
+                   <p class="text-sm">This is text-sm.</p>
+                   <p class="text-xs">This is text-xs.</p>
+                </div>
+                <div class="col-11 des-container">
+                    <h2>Text Utilities</h2>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cp%2520class%253D%2522heading-lg%2522%253EThis%2520is%2520heading-lg.%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522heading-md%2522%253EThis%2520is%2520heading-md.%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522text-md%2522%253EThis%2520is%2520text-md.%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522text-sm%2522%253EThis%2520is%2520text-sm.%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522text-xs%2522%253EThis%2520is%2520text-xs.%253C%252Fp%253E"
+                        style="width: 426px; height: 167px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div> 
+            </div>
+
+             <!-- List -->
+             <div id="list" class="col-12 component-container">
+                <h2>List</h2>
+                <p>List usually contains all list items.</p>
+                <div class="card-flex">
+                    <!-- <h2>card-flex</h2> -->
+                    <div class="list-conatiner">
+                        <div class="list-conatiner-heading">
+							<h2>List</h2>
+						</div>
+                        <div class="list-content">
+							<ul>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/></i>item 1</li>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/>item 2</li>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/>item 3</li>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/>item 4</li>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/>item 5</li>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/>item 6</li>
+								<li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/>item 7</li>
+                                <li><img src="https://img.icons8.com/material-sharp/24/000000/checked--v1.png" class="checkmark"/></i>item 8</li>
+							</ul>
+                            <div class="list-flex">
+                                <a class="" href="#">List button</a>
+                            </div>
+						</div>
+                    </div>
+                    <div class="col-11 des-container">
+                        <h2>Input field  & Input error feild</h2>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522list-conatiner%2522%253E%250A%253Cdiv%2520class%253D%2522list-conatiner-heading%2522%253E%250A%2520%2520%253Ch2%253EList%253C%252Fh2%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list-content%2522%253E%250A%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522%252F%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25205%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25206%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25207%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fmaterial-sharp%252F24%252F000000%252Fchecked--v1.png%2522%2520class%253D%2522checkmark%2522%252F%253Eitem%25208%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522%2522%2520href%253D%2522%2523%2522%253EList%2520button%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 1008px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </div> 
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
