@@ -1,14 +1,5 @@
 @import url("https://selubre-ui.netlify.app/style.css");
 
-/* .des{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    align-items: center;
-    height: max-content;
-} */
-
 .cl-header{
     position: fixed;
 }
@@ -18,7 +9,6 @@
 }
 
 .des-container{
-    /* background-color:var(--linen-color); */
     width:100%;
     display: flex;
     flex-direction: column;

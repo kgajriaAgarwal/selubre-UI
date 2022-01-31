@@ -35,6 +35,7 @@
 
 .cl-header{
     position: fixed;
+    z-index: 2;
 }
 
 .row{
