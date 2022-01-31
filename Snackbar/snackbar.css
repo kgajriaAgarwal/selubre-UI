@@ -13,6 +13,7 @@
     right: 10px;
     transform: translate3d(0, 20%, 0);
     transition: transform 0.3s ease-in-out;
+    z-index:3;
 }
 
 /* .snackbar p{
