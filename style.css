@@ -8,6 +8,7 @@
 @import './Textultils/textultils.css';
 @import './List/list.css';
 @import './Header/header.css';
+@import './Snackbar/snackbar.css';
 
 * {
     box-sizing:  border-box;
