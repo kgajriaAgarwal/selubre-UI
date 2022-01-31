@@ -5,6 +5,7 @@
     height:min-content;
     background-color: var(--secondary-color);
     color: var(--white-color);
+    /* position: fixed; */
 }
 
 .header{

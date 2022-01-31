@@ -33,6 +33,14 @@
     --shadow-color: #ccc;
 }
 
+.cl-header{
+    position: fixed;
+}
+
+.row{
+    padding-top: 5rem;
+}
+
 .row::after {
     content: "";
     clear: both;

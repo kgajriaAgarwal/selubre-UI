@@ -9,6 +9,14 @@
     height: max-content;
 } */
 
+.cl-header{
+    position: fixed;
+}
+
+.row{
+    padding-top: 5rem;
+}
+
 .des-container{
     /* background-color:var(--linen-color); */
     width:100%;
