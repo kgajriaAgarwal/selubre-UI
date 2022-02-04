@@ -1,0 +1,54 @@
+@import '../style.css';
+
+.badge-container{
+    display: inline-block;
+    width: auto;
+    position: relative;
+    padding: 0.2rem;
+
+}
+
+.badge{
+    padding: 0.2rem;
+    padding-right: 10px;
+    border-radius: 15px 50px 30px;
+    color: var(--white-color);
+    position: absolute;
+    left: 1px;
+}
+
+.badge-new{
+    background-color: var(--darkred-color);
+}
+
+.badge-bs{
+    background-color: var(--lightblue-color);
+}
+
+.avatar-badge{
+    right: -5px;
+    position: absolute;
+    /* top: 28px; */
+    top:2.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+    border: 2px solid antiquewhite;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* color:var(--primary-font-color); */
+    color:var(--white-color);
+}
+
+.avatar-badge-online{
+    background-color: var(--darkgreen-color);
+}
+
+.avatar-badge-offline{
+    background-color: var(--darkred-color);
+}

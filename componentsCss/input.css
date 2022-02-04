@@ -1,0 +1,39 @@
+@import '../style.css';
+
+.float-container {
+    border: solid 2px var(--darkgray-color);
+    position: relative;
+    padding: 0 8px;
+    border-radius: 10px;
+  }
+  .float-container input {
+    border: none;
+    font-size: 1rem;
+    outline: 0;
+    padding: 16px 0 10px;
+    background-color: transparent;
+  }
+
+  .input-lbl {
+    font-size: 0.75rem;
+    position: absolute;
+    margin-top: 2px;
+    color: var(--darkgray-color);
+  }
+
+  .float-container.active .input-lbl {
+    transform: translate(0, 4px) scale(.75);
+  }
+
+  .error-message{
+    color: var(--darkred-color);
+    font-weight: 500;
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 15px;
+    margin: 5px 10px 0;
+  }
+
+  .input-group .error-message {
+    display: none;
+  }
