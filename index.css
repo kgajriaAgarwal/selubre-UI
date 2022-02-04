@@ -1,32 +1,40 @@
 @import "./style.css";
 
 .left-conatiner{
-    background-color: var(--linen-color);
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
+    padding: 0.5rem;
+    border:2px solid var(--primary-bg);
+    border-radius: 5px;
 
 }
+
+.bg-grey{
+    background-image: url("https://image.shutterstock.com/image-illustration/abstract-geometric-white-gray-curve-260nw-1888500715.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--lightgray-color);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 .indx-main-div{
    display: flex;
    flex-direction: row;
    justify-content: center;
-   /* background-color: brown; */
 }
 
 .indx-desc-box{
     text-align: center;
-    /* background-color: brown; */
-    /* margin: auto;
-    width: 50%; */
-    /* border: 3px solid green; */
     color:var(--black-color);
     padding: 10px;
 }
 
 .desc-para{
-    margin: 20px;
+    margin: 2rem;
 }

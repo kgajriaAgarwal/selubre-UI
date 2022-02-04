@@ -1,12 +1,33 @@
 @import url("https://selubre-ui.netlify.app/style.css");
 
+*{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: var(--darkgray-color);
+}
+
 .cl-header{
     position: fixed;
     z-index:2;
+    font-family: 'Quintessential', cursive;
 }
 
 .row{
     padding-top: 5rem;
+}
+
+.right-container{
+    background-color: var(--lightgray-color);
+    text-align: center;
+}
+
+.right-container h2{
+    font-size: 2rem;
+    color: var(--primary-bg);
 }
 
 .des-container{
@@ -15,4 +36,12 @@
     flex-direction: column;
     align-items: center;
     height: max-content;
+}
+
+.des-container iframe{
+    /* background: var(--secondary-color); */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:2rem;
+    border-radius:0.5rem;
 }
