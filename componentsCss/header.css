@@ -1,6 +1,6 @@
 @import '../style.css';
 
-.header-conatiner{
+.header-container{
     width:100%;
     height:min-content;
     background-color: var(--secondary-color);
@@ -22,7 +22,7 @@
     font-weight: 500;
 }
 
- .header-icon-conatiner{
+ .header-icon-container{
     width:max-content;
     display: inline-flex;
     margin-left: auto;
@@ -35,13 +35,13 @@
     margin: 10px 0;
   }
 
-.header-icon-sub-conatiner{
+.header-icon-sub-container{
     padding: 7px;
     justify-content: center;
     align-content: center;
     margin-top: 5px;
 }
 
-.header-cart-conatiner{
+.header-cart-container{
     padding: 5px 10px;
 }

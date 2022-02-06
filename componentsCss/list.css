@@ -1,6 +1,6 @@
 @import '../style.css';
 
- .list-conatiner{
+ .list-container{
 	margin: 10px;
 	display: inline;
 	float: left;
@@ -10,11 +10,11 @@
     box-shadow: 0 2px 20px var(--shadow-color);
 }
 
-/* .list-conatiner:hover{
+/* .list-container:hover{
 	
 } */
     
-.list-conatiner-heading{
+.list-container-heading{
 	background-color: var(--tertiary-color);
 	display: inline;
 	float: left;
@@ -22,7 +22,7 @@
 	text-align: center;
 	width: 100%;
 }
-.list-conatiner-heading h2{
+.list-container-heading h2{
 	color: var(--white-color);
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -30,7 +30,7 @@
 	padding: 5px;
 	text-transform: uppercase;
 }
-.list-conatiner-heading p{
+.list-container-heading p{
 	font-size: 1rem;
 	color: var(--white-color);
 	font-weight: bold;

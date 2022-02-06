@@ -1,6 +1,6 @@
 @import "./style.css";
 
-.left-conatiner{
+.left-container{
     display: inline-flex;
     flex-direction: column;
     justify-content: center;

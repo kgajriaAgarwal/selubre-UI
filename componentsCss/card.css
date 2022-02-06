@@ -12,7 +12,8 @@
 
 .card-main{
     width: 250px;
-    height: 300px;
+    /* height: 300px; */
+    height: max-content;
     background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
     text-align: center;
     align-items: center;
