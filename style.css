@@ -11,6 +11,7 @@
 @import './componentsCss/list.css';
 @import './componentsCss/snackbar.css';
 @import './componentsCss/textultils.css';
+@import './componentsCss/slider.css';
 
 * {
     box-sizing:  border-box;
