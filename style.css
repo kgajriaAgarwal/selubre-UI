@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quintessential&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quintessential&family=Roboto+Slab:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@500&family=Quintessential&family=Roboto+Slab:wght@300&display=swap');
 
 @import './componentsCss/alert.css';
 @import './componentsCss/avatar.css';
@@ -17,13 +23,15 @@
     box-sizing:  border-box;
     margin:0;
     padding: 0;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Roboto Slab', serif; */
   }
 
 :root{
     --primary-bg: #CE5864;
     --secondary-color:#e7717d;
     --tertiary-color:#f5b6be;
-    --darkgreen-color:green;
+    --darkgreen-color:#1aab2a;
     --lightgreen-color:#CDF7AC;
     --lightred-color:#f7c8a2;
     --darkred-color:#d1190e;
