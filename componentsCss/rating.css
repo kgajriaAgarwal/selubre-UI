@@ -1,0 +1,103 @@
+@import '../style.css';
+
+.rating-container{
+    display: flex;
+    flex-direction: column;    
+    width: 80%;
+    justify-self: center;
+    margin :10px;
+    padding: 10px;
+    border: 2px solid var(--darkgray-color);
+    border-radius: 10px;
+}
+
+.rating-container hr{
+    width:100%;
+    margin: 5px 0;
+}
+  
+.star-rating{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.star-rating .heading-md{
+    padding-right: 10px;
+}
+
+.star-rating img{
+    object-fit: contain;
+}
+  
+  /* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+    font-weight: 700;
+}
+  
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+  
+  /* Place text to the right */
+.right {
+    text-align: right;
+    padding-right: 15px;
+    font-weight: 500;
+}
+  
+  /* Clear floats after the columns */
+.star-rating-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: var(--lightgray-color);
+    text-align: center;
+    color: var(--white-color);
+  }
+  
+  /* Individual bars */
+.bar-5 {
+    width: 60%; 
+    height: 1rem;
+    background-color: var(--darkgreen-color);
+}
+.bar-4 {
+    width: 30%;
+    height: 1rem; 
+    background-color: var(--darkblue-color);
+}
+.bar-3 {
+    width: 10%; 
+    height: 1rem; 
+    background-color: var(--lightblue-color);
+}
+.bar-2 {
+    width: 4%; 
+    height: 1rem; 
+    background-color: var(--darkyellow-color);
+}
+.bar-1 {
+    width: 15%; 
+    height: 1rem; 
+    background-color: var(--darkred-color);
+}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    .right {
+      display: none;
+    }
+  }

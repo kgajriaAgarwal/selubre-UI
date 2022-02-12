@@ -18,6 +18,9 @@
 @import './componentsCss/snackbar.css';
 @import './componentsCss/textultils.css';
 @import './componentsCss/slider.css';
+@import './componentsCss/modal.css';
+@import './componentsCss/rating.css';
+@import './componentsCss//grid.css';
 
 * {
     box-sizing:  border-box;
@@ -36,6 +39,7 @@
     --lightred-color:#f7c8a2;
     --darkred-color:#d1190e;
     --lightblue-color:cyan;
+    --darkblue-color:#00bcd4;
     --lightgray-color:#f4f4f4;
     --black-color:black;
     --white-color: #ffffff;
@@ -44,6 +48,7 @@
     --shadow-color: #ccc;
     --darkgray-color: darkgray;
     --whitepeach-color:#f4efef;
+    --darkyellow-color:#ff9800;
 }
 
 .cl-header{

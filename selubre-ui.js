@@ -1,6 +1,7 @@
 const snackbar = document.querySelector("[data-js=snackbar]");
 const floatField = document.getElementById('floatField');
 const floatContainer = document.getElementById('floatContainer');
+const modal = document.getElementById("my-modal");
 
 floatField.addEventListener('focus', () => {
   floatContainer.classList.add('active');
@@ -13,8 +14,17 @@ function handleSnackbarAction(){
     snackbar.classList.add("snackbar-open");
     setTimeout(() =>{
         snackbar.classList.remove("snackbar-open")
-        },2000);
+        },5000);
 }
+
+function handleModalAction(){
+  console.log("modal clicked");
+modal.classList.add("modal-open");
+  setTimeout(() =>{
+      modal.classList.remove("modal-open")
+      },5000);
+}
+
 
 //SLIDER - COMPONENT
 var slider = document.getElementById("myRange");
