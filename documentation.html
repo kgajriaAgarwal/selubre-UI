@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selubre-UI</title>
-    <link rel="stylesheet" href="https://selubre-ui.netlify.app/style.css">
+    <!-- <link rel="stylesheet" href="https://selubre-ui.netlify.app/style.css"> -->
     <link rel="stylesheet" href="documentation.css">
 </head>
 
@@ -16,11 +16,13 @@
                 Selubre-UI
             </h2>
             <div class="header-icon-container">
+                <a href="./index.html">
+                    <p class='text-lg'>Home</p>
+                </a>
                 <div class="header-icon-sub-container">
                     <a href="https://github.com/kgajriaAgarwal">
                         <img src="https://img.icons8.com/color-glass/48/000000/github.png" alt="github" />
                     </a>
-                    </button>
                 </div>
             </div>
         </header>
@@ -65,6 +67,7 @@
                 <a href="#rating"><li>Star rating for ecommerce </li></a>
                 <a href="#modal"><li>Modal</li></a>
                 <a href="#toast"><li>Snackbar/Toast</li></a>
+                <a href="#grid"><li>Grid</li></a>
             </ul>
         </div>
 
@@ -343,8 +346,8 @@
                     <div class="card-container card-shadow">
                         <img src="https://onemg.gumlet.io/image/upload/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/v1601318110/cropped/f4gr0qxuu6vfecw1yefq.jpg" class="card-img" alt="card-img"/>
                         <div class="card-content-container">
-                            <h4>Card title</h4>
-                            <p class="card-des">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="text-sm card-des">Card title</h4>
+                            <p class='text-xs card-des'>Card description is here.</p>
                             <div class="flex-content">
                                 <button class="btn card-btn card-btn-text"><span class='text-lg'>Explore More..</span></button>
                             </div>
@@ -503,7 +506,7 @@
             </div>
 
             <!-- Input -->
-            <div class="col-12 component-container">
+            <div id="input" class="col-12 component-container">
                 <h2>Input</h2>
                 <p>Input is used to take the input from the user.</p>
                 <div class="component-sub-container">
@@ -730,15 +733,16 @@
              <div id="modal" class="col-12 component-container">
                 <h2>Modal</h2>
                 <button onclick="handleModalAction()" class="btn btn-sm btn-primary">open modal</button>
+                <div class="col-11 des-container">
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522my-modal%2522%2520class%253D%2522bg-modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253EModal%2520title%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520%2509%2509%2509%2509%2509and%2520scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-sm%2520btn-primary%2522%253Eok%2520%21%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+                    loading="lazy"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </div>
-            <div class="col-11 des-container">
-                <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522my-modal%2522%2520class%253D%2522bg-modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253EModal%2520title%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520%2509%2509%2509%2509%2509and%2520scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-sm%2520btn-primary%2522%253Eok%2520%21%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
-                loading="lazy"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
+            
 
             <!-- Toast/ notify -->
             <div id="toast" class="col-12 component-container">
@@ -755,52 +759,49 @@
             </div>
 
             <!-- Grid -->
-            <div id="rating" class="col-12 component-container">
+            <div id="grid" class="col-12 component-container">
                 <h2>Grid</h2>
-                <!-- <div class='card-flex'> -->
-                    <h3>2 items in a grid</h3>
-                    <div class='grid-2'>
-                        <div class="grid-item-1"> 
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                        </div>
-		                <div class="grid-item-2">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                        </div>
+                <h3>2 items in a grid</h3>
+                <div class='grid-2'>
+                    <div class="grid-item-1"> 
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
                     </div>
-
-                    <div class="col-11 des-container">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27grid-2%27%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-1%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                            style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden; scroll-behavior: smooth;"
-                            loading="lazy"
-                            sandbox="allow-scripts allow-same-origin">
-                            </iframe>
+                    <div class="grid-item-2">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
                     </div>
+                </div>
 
-                    <h3>3 items in a grid</h3>
-                    <div class='grid-3'>
-                        <div class="grid-item-1"> 
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                        </div>
-		                <div class="grid-item-2">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                        </div>
-                        <div class="grid-item-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-                        </div>
-                    </div>
-
-                    <div class="col-11 des-container">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27grid-3%27%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-1%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                            style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden; scroll-behavior: smooth;"
-                            loading="lazy"
-                            sandbox="allow-scripts allow-same-origin">
+                <div class="col-11 des-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27grid-2%27%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-1%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden; scroll-behavior: smooth;"
+                        loading="lazy"
+                        sandbox="allow-scripts allow-same-origin">
                         </iframe>
-                    </div>
-                <!-- </div> -->
-            </div>
+                </div>
 
+                <h3>3 items in a grid</h3>
+                <div class='grid-3'>
+                    <div class="grid-item-1"> 
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                    </div>
+                    <div class="grid-item-2">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                    </div>
+                    <div class="grid-item-3">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                    </div>
+                </div>
+
+                <div class="col-11 des-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27grid-3%27%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-1%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520Ipsum%2520is%2520simply%2520dummy%2520text%2520of%2520the%2520printing%2520and%2520typesetting%2520industry.%2520Lorem%2520Ipsum%2520has%2520been%2520the%2520%2509%2509%2509industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520%2509%2509%2509scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520centuries%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width:100%; height: 100%; border:0; transform: scale(1); overflow:hidden; scroll-behavior: smooth;"
+                        loading="lazy"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
         </div>        
     </div>
     </div>
