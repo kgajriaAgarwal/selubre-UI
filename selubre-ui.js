@@ -24,13 +24,3 @@ modal.classList.add("modal-open");
       modal.classList.remove("modal-open")
       },5000);
 }
-
-
-//SLIDER - COMPONENT
-var slider = document.getElementById("myRange");
-var output = document.getElementById("demo");
-output.innerHTML = slider.value;
-
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
