@@ -30,7 +30,8 @@
 ### How to run the app:
 For using the components you just have to _link the CDN_ that is provided on the home page and than just copy and paste the html provided to you.
 
-![Selubre-UI](https://selubre-ui.netlify.app/Assets/www_screencapture_com_2022-2-20_22_48.gif)
+### gif:
+[Selubre-UI](https://selubre-ui.netlify.app/Assets/www_screencapture_com_2022-2-20_22_48.gif)
 
 
 Connect With me at [LinkedIn](https://www.linkedin.com/in/karishma-gajria-768107138/?originalSubdomain=in) | [Github](https://github.com/kgajriaAgarwal)
