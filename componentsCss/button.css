@@ -56,7 +56,7 @@
 .btn-float{
     background-color: var(--darkred-color);
     border-radius: 50%;
-    box-shadow: 0 6px 10px 0 #666;
+    box-shadow: 0 6px 10px 0 var(--shadow-color);
     transition: all 0.1s ease-in-out;
     color: var(--white-color);
     text-align: center;
@@ -64,6 +64,6 @@
 }
 
 .btn-float:hover {
-    box-shadow: 0 6px 14px 0 #666;
+    box-shadow: 0 6px 14px 0 var(--shadow-color);
     transform: scale(1.05);
  }

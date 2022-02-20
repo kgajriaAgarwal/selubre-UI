@@ -16,12 +16,6 @@
     z-index:3;
 }
 
-/* .snackbar p{
-    font-weight: 500;
-    text-overflow: ellipsis;
-    overflow: hidden;
-} */
-
 .snackbar-btn-div{
     margin-left: auto;
 }
