@@ -1,4 +1,5 @@
-# selubre-UI
+![selubre-UI](https://selubre-ui.netlify.app/Assets/selubre.png)
+
 - _The wholesome UI_
 - Selubre-UI is a component library that would enable you to create your UI with a fast pace without any difficulty.
 
